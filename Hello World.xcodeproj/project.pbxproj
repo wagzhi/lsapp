@@ -15,9 +15,9 @@
 		813EF9C6142FFCA3001617E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 813EF9C4142FFCA3001617E0 /* InfoPlist.strings */; };
 		813EF9C8142FFCA3001617E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EF9C7142FFCA3001617E0 /* main.m */; };
 		813EF9CC142FFCA3001617E0 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EF9CB142FFCA3001617E0 /* BIDAppDelegate.m */; };
-		813EF9CF142FFCA3001617E0 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EF9CE142FFCA3001617E0 /* BIDViewController.m */; };
 		813EF9D2142FFCA3001617E0 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813EF9D0142FFCA3001617E0 /* BIDViewController.xib */; };
 		DA2D06B416A12EFB00BBDE26 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2D06B316A12EFB00BBDE26 /* Default-568h@2x.png */; };
+		DADE9DA816AE896B008362A4 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADE9DA716AE896B008362A4 /* BIDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,9 @@
 		813EF9CA142FFCA3001617E0 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
 		813EF9CB142FFCA3001617E0 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
 		813EF9CD142FFCA3001617E0 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
-		813EF9CE142FFCA3001617E0 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		813EF9D1142FFCA3001617E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
 		DA2D06B316A12EFB00BBDE26 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DADE9DA716AE896B008362A4 /* BIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 			children = (
 				813EF9CA142FFCA3001617E0 /* BIDAppDelegate.h */,
 				813EF9CB142FFCA3001617E0 /* BIDAppDelegate.m */,
+				DADE9DA716AE896B008362A4 /* BIDViewController.m */,
 				813EF9CD142FFCA3001617E0 /* BIDViewController.h */,
-				813EF9CE142FFCA3001617E0 /* BIDViewController.m */,
 				813EF9D0142FFCA3001617E0 /* BIDViewController.xib */,
 				813EF9C2142FFCA3001617E0 /* Supporting Files */,
 			);
@@ -175,7 +175,7 @@
 			files = (
 				813EF9C8142FFCA3001617E0 /* main.m in Sources */,
 				813EF9CC142FFCA3001617E0 /* BIDAppDelegate.m in Sources */,
-				813EF9CF142FFCA3001617E0 /* BIDViewController.m in Sources */,
+				DADE9DA816AE896B008362A4 /* BIDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
